@@ -1,0 +1,103 @@
+#popup-container{
+    margin-left: 400px;
+}
+
+.box {
+    top: -260px;
+    width: 500px;
+    left: 400px;
+    height: 470px;
+    background-color: #1c2130;
+}
+
+.button-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 309px;
+}
+
+button.btn.btn-primary.btn-lg.active {
+    background-color: #57b46a;
+    color: #fff;
+    border-color: #57b46a;
+    width: 400px;
+    height: 40px;
+    font-size: medium;
+    
+}
+
+button.btn.btn-primary.btn-lg.active:hover{
+    opacity: 0.9;
+    transition: 0.5s;
+    color: #1c2130;
+}
+
+#promotion-header-title {
+    color: whitesmoke;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 1.25em;
+    text-align: center;
+} 
+
+span#promotion-subheader-title {
+    color: whitesmoke;
+    font-size: 0.75em;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.video-teaser {
+    margin-top: 80px;
+    position: absolute;
+    overflow: hidden;
+    left: 50px;
+}
+img {
+    position: relative;
+    width: 200px;
+}
+
+.popupCloseButton {
+    position: absolute;
+    font-size: 1.25em;
+    font-weight: 700;   
+    cursor: pointer;
+    display: inline-block;
+    line-height: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    color: #57b46a;
+   
+}
+
+.elementor video {
+    max-width: 400px !important;
+    width: 400px !important;
+    margin: 0;
+    line-height: 1;
+    border: none;
+}
+
+.slide-top {
+	-webkit-animation: slide-top 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(-500px);
+            transform: translateY(-500px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+
