@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: WordPress Video Popup Form 
-* Plugin URI: http:/localhost
+* Plugin URI: http://localhost
 * Description: This is a WordPress Popup Form with an video element for a specific client. The plugin is made with PHP, HTML, CSS and JS 
 * Version: 1.7.7
 * Author: Murat Kilic
